@@ -1,0 +1,21 @@
+@inproceedings{haklay-etal-2025-position,
+    title = "Position-aware Automatic Circuit Discovery",
+    author = "Haklay, Tal  and
+      Orgad, Hadas  and
+      Bau, David  and
+      Mueller, Aaron  and
+      Belinkov, Yonatan",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.141/",
+    pages = "2792--2817",
+    ISBN = "979-8-89176-251-0",
+    abstract = "A widely used strategy to discover and understand language model mechanisms is circuit analysis. A circuit is a minimal subgraph of a model{'}s computation graph that executes a specific task. We identify a gap in existing circuit discovery methods: they assume circuits are position-invariant, treating model components as equally relevant across input positions. This limits their ability to capture cross-positional interactions or mechanisms that vary across positions. To address this gap, we propose two improvements to incorporate positionality into circuits, even on tasks containing variable-length examples. First, we extend edge attribution patching, a gradient-based method for circuit discovery, to differentiate between token positions. Second, we introduce the concept of a dataset schema, which defines token spans with similar semantics across examples, enabling position-aware circuit discovery in datasets with variable length examples. We additionally develop an automated pipeline for schema generation and application using large language models. Our approach enables fully automated discovery of position-sensitive circuits, yielding better trade-offs between circuit size and faithfulness compared to prior work."
+}

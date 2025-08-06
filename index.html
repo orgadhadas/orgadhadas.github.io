@@ -78,8 +78,88 @@
 			<!-- Publications -->
 			
 			<section class="resume-section" id="publications">
-                <div class="resume-section-content">
+			
+				<div class="resume-section-content">
                     <h2 class="mb-5">Publications</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3>Inside-out: Hidden Factual Knowledge in LLMs</h3>
+							<h4>Zorik Gekhman, Eyal Ben David, Hadas Orgad, Eran Ofek, Yonatan Belinkov, Idan Szpektor, Jonathan Herzig, Roi Reichart</h4>
+                            <div class="subheading">COLM 2025</div>
+                            <p>
+							This work introduces a framework to measure "hidden knowledge" in large language models—cases where models internally know the correct answer but fail to express it in their outputs. By comparing internal and external knowledge across three LLMs, we find a consistent 40% gap, with some answers never generated despite perfect internal knowledge.
+							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/zorikg/inside-out" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2503.15299" target="_blank" rel="noopener">Arxiv</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/inside_out/cite.bib" target="_blank" rel="noopener">Cite</a>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+					</div>
+					
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3>LLMs Know More Than They Show: On the Intrinsic Representation of LLM Hallucinations</h3>
+							<h4>Hadas Orgad, Michael Toker, Zorik Gekhman, Roi Reichart, Idan Szpektor, Hadas Kotek, Yonatan Belinkov</h4>
+                            <div class="subheading">ICLR 2025</div>
+                            <p>
+							This work shows that large language models internally encode rich information about the truthfulness of their outputs, concentrated in specific tokens—enabling strong error detection and even prediction of error types. However, this encoding is not universal across datasets. Additionally, models may still produce incorrect answers despite internally encoding the correct one.
+							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://llms-know.github.io/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/technion-cs-nlp/LLMsKnow" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2410.02707" target="_blank" rel="noopener">Arxiv</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/llms_know/cite.bib" target="_blank" rel="noopener">Cite</a>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+					</div>
+								
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3>MIB: A Mechanistic Interpretability Benchmark</h3>
+							<h4>TODO </h4>
+                            <div class="subheading">ICML 2025</div>
+                            <p>
+							A new benchmark designed to evaluate whether mechanistic interpretability methods truly improve our understanding of language models. MIB includes two tracks—circuit localization and causal variable identification—across multiple tasks and models.
+							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://mib-bench.github.io/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/aaronmueller/MIB" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2504.13151" target="_blank" rel="noopener">Arxiv</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/MIB/cite.bib" target="_blank" rel="noopener">Cite</a>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+					</div>
+					
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3>Padding Tone: A Mechanistic Analysis of Padding Tokens in T2I Models</h3>
+							<h4>Michael Toker, Ido Galil, Hadas Orgad, Rinon Gal, Yoad Tewel, Gal Chechik, Yonatan Belinkov</h4>
+                            <div class="subheading">ACL 2025</div>
+                            <p>
+							This work presents the first in-depth analysis of how padding tokens affect text-to-image generation. Using two causal techniques, we find that padding tokens can influence image generation at different stages—during text encoding, the diffusion process, or not at all—depending on model architecture and training setup.
+							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://padding-tone.github.io/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/technion-cs-nlp/Padding-Tone" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2501.06751" target="_blank" rel="noopener">Arxiv</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/padding_tone/cite.bib" target="_blank" rel="noopener">Cite</a>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+					</div>
+					
+					
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3>Position-Aware Automatic Circuit Discovery</h3>
+							<h4>Tal Haklay, Hadas Orgad, David Bau, Aaron Mueller, Yonatan Belinkov</h4>
+                            <div class="subheading">ACL 2025</div>
+                            <p>
+							We present an automated, position-aware circuit discovery pipeline that differentiates token positions and uses dataset schemas to capture cross-positional mechanisms with better faithfulness at smaller sizes.
+							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://peap-circuits.github.io/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://github.com/technion-cs-nlp/PEAP" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2502.04577" target="_blank" rel="noopener">Arxiv</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/peap/cite.bib" target="_blank" rel="noopener">Cite</a>
+						</div>
+						<div class="flex-shrink-0"><span class="text-primary">2025</span></div>
+					</div>
 					
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -90,6 +170,7 @@
 							We introduce the Diffusion Lens method to analyze text encoders intermediate representations in text-to-image models. Using the method, we perform an extensive analysis of two recent T2I models, and gain insights on both conceptual combination abilities and knowledge retrieval in the models.
 							</p>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://tokeron.github.io/DiffusionLensWeb/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/tokeron/DiffusionLens" target="_blank" rel="noopener">Code</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2403.05846" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/diffusion_lens/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
@@ -104,6 +185,7 @@
                             <p>
 							Text-to-image models are trained on extensive amounts of data, leading them to implicitly encode factual knowledge within their parameters. While some facts are useful, others may be incorrect or become outdated (e.g., the current President of the United States). We introduce ReFACT, a method for updating text-to-image models. ReFACT updates the weights of a specific layer in the text encoder, only modifying a tiny portion of the model's parameters, and leaving the rest of the model unaffected.</p>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://technion-cs-nlp.github.io/ReFACT/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/technion-cs-nlp/ReFACT" target="_blank" rel="noopener">Code</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2306.00738" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/ReFACT/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
@@ -119,6 +201,7 @@
 							Text-to-image models suffer from various safety issues that may limit their suitability for deployment. Previous methods have separately addressed individual issues of bias, copyright, and offensive content in text-to-image models. However, in the real world, all of these issues appear simultaneously in the same model.
 							In this paper, we present a method that tackles those diverse issues with a single approach.</p>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://unified.baulab.info/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/rohitgandikota/unified-concept-editing" target="_blank" rel="noopener">Code</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2308.14761" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/UCE/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
@@ -136,6 +219,7 @@
 							Our method is highly efficient, as it modifies a mere 2.2% of the model's parameters in under one second.
 							</p>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://time-diffusion.github.io/" target="_blank" rel="noopener">Project Page</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/bahjat-kawar/time-diffusion" target="_blank" rel="noopener">Code</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2303.08084" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/TIME/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
@@ -149,6 +233,7 @@
                             <p>
 							In this work, we propose a debiasing method that operates without any prior knowledge of the demographics in the dataset, detecting biased examples based on an auxiliary model that predicts the main model's success and down-weights them during the training process. Results on racial and gender bias demonstrate that it is possible to mitigate social biases without having to use a costly demographic annotation process.
 							</p>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/technion-cs-nlp/BLIND" target="_blank" rel="noopener">Code</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2212.10563" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/Debiasing-NLP-Models-Without-Demographic-Information/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
@@ -171,7 +256,8 @@
 							<h4>Hadas Orgad, Seraphina Goldfarb-Tarrant, Yonatan Belinkov</h4>
                             <div class="subheading mb-3">NAACL 2022</div>
                             <p>Common studies of gender bias in NLP focus either on extrinsic bias measured by model performance on a downstream task or on intrinsic bias found in models’ internal representations. However, the relationship between extrinsic and intrinsic bias is relatively unknown. In this work, we illuminate this relationship by measuring both quantities together.</p>
-                        	<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.naacl-main.188/" target="_blank" rel="noopener">Arxiv</a>
+                        	<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/technion-cs-nlp/gender_internal" target="_blank" rel="noopener">Code</a>
+							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2022.naacl-main.188/" target="_blank" rel="noopener">Arxiv</a>
 							<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="./publications/How-Gender-Debiasing-Affects-Internal-Model-Representations/cite.bib" target="_blank" rel="noopener">Cite</a>
 						</div>
                         <div class="flex-shrink-0"><span class="text-primary">2022</span></div>
